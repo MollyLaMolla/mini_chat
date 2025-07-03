@@ -60,7 +60,9 @@ export default function Chat() {
   }, [messages]);
 
   useEffect(() => {
-    const socket = new WebSocket("wss://https://mini-chat-my86.onrender.com");
+    const socket = new WebSocket(
+      "wss://https://mini-chat-websocket-server.onrender.com" // Cambia con il tuo URL del server WebSocket
+    );
     socketRef.current = socket;
 
     const saved = localStorage.getItem("chat-username");
