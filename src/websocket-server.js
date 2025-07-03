@@ -18,7 +18,7 @@ app.get("/api/messages", async (req, res) => {
 
 const prisma = new PrismaClient();
 const PORT = process.env.PORT || 3001;
-const wss = new WebSocketServer({ port: PORT });
+const wss = new WebSocketServer({ server });
 const clients = new Set();
 
 function stringToColor(str) {
