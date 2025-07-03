@@ -1,5 +1,20 @@
 import { WebSocketServer } from "ws";
 import { PrismaClient } from "@prisma/client";
+import http from "http";
+import express from "express";
+import cors from "cors";
+
+const app = express();
+app.use(cors());
+const server = http.createServer(app); // 👈 usa Express per creare un server HTTP
+
+// esempio API
+app.get("/api/messages", async (req, res) => {
+  const messages = await prisma.message.findMany({
+    orderBy: { createdAt: "asc" },
+  });
+  res.json(messages);
+});
 
 const prisma = new PrismaClient();
 const PORT = process.env.PORT || 3001;
@@ -64,4 +79,6 @@ wss.on("connection", (ws) => {
   });
 });
 
-console.log(`🌐 WebSocket server in ascolto su ws://localhost:${PORT}`);
+server.listen(PORT, () => {
+  console.log(`🚀 Server HTTP in ascolto su http://localhost:${PORT}`);
+});
