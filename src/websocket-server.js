@@ -1,6 +1,20 @@
 import { WebSocketServer } from "ws";
 import { PrismaClient } from "@prisma/client";
 
+import express from "express";
+import cors from "cors";
+
+const app = express();
+app.use(cors());
+
+// esempio API
+app.get("/api/messages", async (req, res) => {
+  const messages = await prisma.message.findMany({
+    orderBy: { createdAt: "asc" },
+  });
+  res.json(messages);
+});
+
 const prisma = new PrismaClient();
 const PORT = process.env.PORT || 3001;
 const wss = new WebSocketServer({ port: PORT });

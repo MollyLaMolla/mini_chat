@@ -78,8 +78,13 @@ export default function Chat() {
       setMessages((prev) => [...prev, parsed]);
     });
 
+    const baseURL =
+      process.env.NODE_ENV === "development"
+        ? "http://localhost:3000"
+        : "https://mini-chat-websocket-server.onrender.com";
+
     // 👇 Carica i messaggi dal DB
-    fetch("/api/messages")
+    fetch("" + baseURL + "/api/messages")
       .then((res) => res.json())
       .then((data) => {
         setMessages(data);
