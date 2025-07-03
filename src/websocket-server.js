@@ -2,7 +2,8 @@ import { WebSocketServer } from "ws";
 import { PrismaClient } from "@prisma/client";
 
 const prisma = new PrismaClient();
-const wss = new WebSocketServer({ port: 3001 });
+const PORT = process.env.PORT || 3001;
+const wss = new WebSocketServer({ port: PORT });
 const clients = new Set();
 
 function stringToColor(str) {
@@ -63,4 +64,4 @@ wss.on("connection", (ws) => {
   });
 });
 
-console.log("🌐 WebSocket server in ascolto su ws://localhost:3001");
+console.log(`🌐 WebSocket server in ascolto su ws://localhost:${PORT}`);
