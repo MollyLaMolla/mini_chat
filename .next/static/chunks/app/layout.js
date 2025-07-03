@@ -8,13 +8,13 @@
  */
 (self["webpackChunk_N_E"] = self["webpackChunk_N_E"] || []).push([["app/layout"],{
 
-/***/ "(app-pages-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=D%3A%5CCODE%5CPersonal%5CSites%5Cmio-sito%5Csrc%5Capp%5Cglobals.css&server=false!":
-/*!***********************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=D%3A%5CCODE%5CPersonal%5CSites%5Cmio-sito%5Csrc%5Capp%5Cglobals.css&server=false! ***!
-  \***********************************************************************************************************************************************************************************/
+/***/ "(app-pages-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%7B%22request%22%3A%22D%3A%5C%5CCODE%5C%5CPersonal%5C%5CSites%5C%5Cmio-sito%5C%5Csrc%5C%5Capp%5C%5Cglobals.css%22%2C%22ids%22%3A%5B%5D%7D&server=false!":
+/*!*********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%7B%22request%22%3A%22D%3A%5C%5CCODE%5C%5CPersonal%5C%5CSites%5C%5Cmio-sito%5C%5Csrc%5C%5Capp%5C%5Cglobals.css%22%2C%22ids%22%3A%5B%5D%7D&server=false! ***!
+  \*********************************************************************************************************************************************************************************************************************************************************/
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
-eval(__webpack_require__.ts("Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(__webpack_require__, /*! ./src/app/globals.css */ \"(app-pages-browser)/./src/app/globals.css\"))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwcC1wYWdlcy1icm93c2VyKS8uL25vZGVfbW9kdWxlcy9uZXh0L2Rpc3QvYnVpbGQvd2VicGFjay9sb2FkZXJzL25leHQtZmxpZ2h0LWNsaWVudC1lbnRyeS1sb2FkZXIuanM/bW9kdWxlcz1EJTNBJTVDQ09ERSU1Q1BlcnNvbmFsJTVDU2l0ZXMlNUNtaW8tc2l0byU1Q3NyYyU1Q2FwcCU1Q2dsb2JhbHMuY3NzJnNlcnZlcj1mYWxzZSEiLCJtYXBwaW5ncyI6IkFBQUEiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9fTl9FLz9lZTE5Il0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCgvKiB3ZWJwYWNrTW9kZTogXCJlYWdlclwiICovIFwiRDpcXFxcQ09ERVxcXFxQZXJzb25hbFxcXFxTaXRlc1xcXFxtaW8tc2l0b1xcXFxzcmNcXFxcYXBwXFxcXGdsb2JhbHMuY3NzXCIpIl0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(app-pages-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=D%3A%5CCODE%5CPersonal%5CSites%5Cmio-sito%5Csrc%5Capp%5Cglobals.css&server=false!\n"));
+eval(__webpack_require__.ts("Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(__webpack_require__, /*! ./src/app/globals.css */ \"(app-pages-browser)/./src/app/globals.css\"));\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwcC1wYWdlcy1icm93c2VyKS8uL25vZGVfbW9kdWxlcy9uZXh0L2Rpc3QvYnVpbGQvd2VicGFjay9sb2FkZXJzL25leHQtZmxpZ2h0LWNsaWVudC1lbnRyeS1sb2FkZXIuanM/bW9kdWxlcz0lN0IlMjJyZXF1ZXN0JTIyJTNBJTIyRCUzQSU1QyU1Q0NPREUlNUMlNUNQZXJzb25hbCU1QyU1Q1NpdGVzJTVDJTVDbWlvLXNpdG8lNUMlNUNzcmMlNUMlNUNhcHAlNUMlNUNnbG9iYWxzLmNzcyUyMiUyQyUyMmlkcyUyMiUzQSU1QiU1RCU3RCZzZXJ2ZXI9ZmFsc2UhIiwibWFwcGluZ3MiOiJBQUFBLG9LQUErRiIsInNvdXJjZXMiOlsid2VicGFjazovL19OX0UvP2M0YmEiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0KC8qIHdlYnBhY2tNb2RlOiBcImVhZ2VyXCIgKi8gXCJEOlxcXFxDT0RFXFxcXFBlcnNvbmFsXFxcXFNpdGVzXFxcXG1pby1zaXRvXFxcXHNyY1xcXFxhcHBcXFxcZ2xvYmFscy5jc3NcIik7XG4iXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///(app-pages-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%7B%22request%22%3A%22D%3A%5C%5CCODE%5C%5CPersonal%5C%5CSites%5C%5Cmio-sito%5C%5Csrc%5C%5Capp%5C%5Cglobals.css%22%2C%22ids%22%3A%5B%5D%7D&server=false!\n"));
 
 /***/ }),
 
@@ -25,14 +25,14 @@ eval(__webpack_require__.ts("Promise.resolve(/*! import() eager */).then(__webpa
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval(__webpack_require__.ts("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"63dadc55113b\");\nif (true) { module.hot.accept() }\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwcC1wYWdlcy1icm93c2VyKS8uL3NyYy9hcHAvZ2xvYmFscy5jc3MiLCJtYXBwaW5ncyI6IjtBQUFBLCtEQUFlLGNBQWM7QUFDN0IsSUFBSSxJQUFVLElBQUksaUJBQWlCIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vX05fRS8uL3NyYy9hcHAvZ2xvYmFscy5jc3M/NjBhZiJdLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgZGVmYXVsdCBcIjYzZGFkYzU1MTEzYlwiXG5pZiAobW9kdWxlLmhvdCkgeyBtb2R1bGUuaG90LmFjY2VwdCgpIH1cbiJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(app-pages-browser)/./src/app/globals.css\n"));
+eval(__webpack_require__.ts("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"1ed57f304123\");\nif (true) { module.hot.accept() }\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwcC1wYWdlcy1icm93c2VyKS8uL3NyYy9hcHAvZ2xvYmFscy5jc3MiLCJtYXBwaW5ncyI6IjtBQUFBLCtEQUFlLGNBQWM7QUFDN0IsSUFBSSxJQUFVLElBQUksaUJBQWlCIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vX05fRS8uL3NyYy9hcHAvZ2xvYmFscy5jc3M/YTdmZCJdLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgZGVmYXVsdCBcIjFlZDU3ZjMwNDEyM1wiXG5pZiAobW9kdWxlLmhvdCkgeyBtb2R1bGUuaG90LmFjY2VwdCgpIH1cbiJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(app-pages-browser)/./src/app/globals.css\n"));
 
 /***/ })
 
 },
 /******/ function(__webpack_require__) { // webpackRuntimeModules
 /******/ var __webpack_exec__ = function(moduleId) { return __webpack_require__(__webpack_require__.s = moduleId); }
-/******/ __webpack_require__.O(0, ["main-app"], function() { return __webpack_exec__("(app-pages-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=D%3A%5CCODE%5CPersonal%5CSites%5Cmio-sito%5Csrc%5Capp%5Cglobals.css&server=false!"); });
+/******/ __webpack_require__.O(0, ["main-app"], function() { return __webpack_exec__("(app-pages-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%7B%22request%22%3A%22D%3A%5C%5CCODE%5C%5CPersonal%5C%5CSites%5C%5Cmio-sito%5C%5Csrc%5C%5Capp%5C%5Cglobals.css%22%2C%22ids%22%3A%5B%5D%7D&server=false!"); });
 /******/ var __webpack_exports__ = __webpack_require__.O();
 /******/ _N_E = __webpack_exports__;
 /******/ }
