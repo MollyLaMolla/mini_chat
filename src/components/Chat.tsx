@@ -61,7 +61,7 @@ export default function Chat() {
 
   useEffect(() => {
     const socket = new WebSocket(
-      "wss://https://mini-chat-websocket-server.onrender.com" // Cambia con il tuo URL del server WebSocket
+      "wss://mini-chat-websocket-server.onrender.com" // Cambia con il tuo URL del server WebSocket
     );
     socketRef.current = socket;
 
